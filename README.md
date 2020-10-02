@@ -60,10 +60,7 @@ At this point, I was satisfied with the model's power, simplicity, and interpret
 
 The two additional features, total sulfur dioxide and sulphates, despite having very small coefficients, resulted in a model with an R^2 of 0.13. This can be understood in the context of each features' univariate regerssion scatterplot.
 
-![volatile acidity](images/corr_volatile%20acidity.png)
-![chlorides](images/corr_chlorides.png)
-![total sulfur dioxide](images/corr_total%20sulfur%20dioxide.png)
-![sulphates](images/corr_sulphates.png)
+![volatile acidity](images/corr_volatile%20acidity.png) ![chlorides](images/corr_chlorides.png) ![total sulfur dioxide](images/corr_total%20sulfur%20dioxide.png) ![sulphates](images/corr_sulphates.png)
 
 The highest quality wines (with median ratings of 8/9) have low values and low variance for all four features. Thus, these features mostly serve to capture variance in the tails of each quality rating. As an example, not every wine rated 3 has a very high volatile acidity (an indication of spoilage), but there is a wide variance compared to 8/9-rated wines. This "capture of tail behavior" explains why total sulphur dioxide and sulphates add significant explanatory power to the model despite having such low coefficients.
 
